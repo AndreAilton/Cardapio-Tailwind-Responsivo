@@ -13,13 +13,13 @@ const modalWarning = document.getElementById("adress-warning")
 let cart = [];
 
 cartBtn.addEventListener("click", event => {
-    modalContainer.style.display = "flex"
+    modalContainer.classList.add("show");
 
 })
 
 modalContainer.addEventListener("click", event => {
     if(event.target === modalContainer){
-        modalContainer.style.display = "none"
+        modalContainer.classList.remove('show');
     }
 })
 
