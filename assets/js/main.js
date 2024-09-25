@@ -24,7 +24,7 @@ modalContainer.addEventListener("click", event => {
 })
 
 modalClose.addEventListener("click", event =>{
-    modalContainer.style.display = "none"
+    modalContainer.classList.remove('show');
 })
 
 menu.addEventListener("click", event => {
